@@ -2966,6 +2966,18 @@ font-size: 14px;
 </div>
 <style>
    
+   @media (max-width: 768px) {
+
+  body {
+    text-align: center;   /* يمسك كل inline-block بالمنتصف */
+  }
+
+  .product {
+    margin: 20px 15px;
+    margin-left: 0 !important;   /* يلغي الميلان */
+    margin-right: 0 !important;
+    width: 140px;                  /* عمودين */
+  }}
 
 header {
 text-align: center;
@@ -3019,18 +3031,7 @@ background: #d50000;
 color: white;
 }
 /* Media Queries للموبايل */
-@media screen and (max-width: 768px) {
-  #top-bar {
-    font-size: 12px;
-    gap: 10px;
-    padding: 6px 0;
-  }
-  #logo {
-    width: 120px;
-  }
-  #search-box {
-    width: 90%;
-  }}
+
 
 
 

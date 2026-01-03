@@ -2974,20 +2974,21 @@ margin-top: 40px;
 
 }
 
+@media (max-width: 768px) {
 
-/* Media Queries للموبايل */
-@media screen and (max-width: 768px) {
-  #top-bar {
-    font-size: 12px;
-    gap: 10px;
-    padding: 6px 0;
+  body {
+    text-align: center;   /* يمسك كل inline-block بالمنتصف */
   }
-  #logo {
-    width: 120px;
+
+  .product {
+    margin: 20px 15px;
+    margin-left: 0 !important;   /* يلغي الميلان */
+    margin-right: 0 !important;
+    width: 140px;                  /* عمودين */
   }
-  #search-box {
-    width: 90%;
-  }}
+
+}
+
 
 
 

@@ -686,6 +686,19 @@ font-size: 14px;
 <style>
    
 
+@media (max-width: 768px) {
+
+  body {
+    text-align: center;   /* يمسك كل inline-block بالمنتصف */
+  }
+
+  .product {
+    margin: 20px 15px;
+    margin-left: 0 !important;   /* يلغي الميلان */
+    margin-right: 0 !important;
+    width: 140px;                  /* عمودين */
+  }}
+
 header {
 text-align: center;
 margin-top: 40px;
